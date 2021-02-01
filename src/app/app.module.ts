@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopnavComponent } from './topnav/topnav.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { LoginComponent } from './login/login.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopnavComponent
+    TopnavComponent,
+    LoginComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
